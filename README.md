@@ -17,12 +17,12 @@ This project is a guide to deploying an Express app using Firebase Functions.
 ## STEPS
 
 1. Create a Firebase application on the Firebase console and switch to the Blaze plan.
-2. Initialize the Firebase app via the command "firebase init" and choose the functions service. It should only prompt you for the desired project.
+2. Initialize the Firebase app via the command `firebase init` and choose the functions service. It should only prompt you for the desired project.
 3. Set up your project in the functions folder, which will be our new home. Nothing changes except the fact that we omit the `app.listen` property on the `index.js`. The rest, including modules, models, routes, controllers, and anything in between, works fine.
 4. The `.env` variables will be loaded automatically on deployment.
 5. Ensure you are using the latest `npm` version while executing the steps above.
-6. Test your app locally using "node index.js" and "firebase serve".
-7. Deploy your app using "firebase deploy".
+6. Test your app locally using `node index.js` and `firebase serve`.
+7. Deploy your app using `firebase deploy`.
 
 ## KEY NOTES
 
