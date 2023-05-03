@@ -1,1 +1,1 @@
-# deploying-firebase
+# Deploying to firebase
