@@ -31,6 +31,19 @@ This project is a guide to deploying an Express app using Firebase Functions.
 - Remember to delete previous Firebase initializations on your desktop. (This was the main issue I encountered)
 - No funny directories or sub-directories should be created.
 
+## GRANTING PUBLIC ACCESS
+
+After successful deployment , only authenticated users can access the server , to allow public access:
+
+- Go to `https://console.cloud.google.com/functions/list`
+- Select the function to which you want to give public access
+- Click on PERMISSIONS
+- Click on ADD PRINCIPAL
+- Type allUsers
+- Select role Cloud Functions > Cloud Functions Invoker
+- Hit Save
+
+
 ## CONCLUSION
 
 Using Firebase Functions makes hosting your backend easy and seamless. The steps outlined above will guide you in deploying your Express app using Firebase.
