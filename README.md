@@ -33,6 +33,7 @@ This project is a guide to deploying an Express app using Firebase Functions.
 - If it works locally `node index.js`, then it works via simulation `firebase serve`, and it will definitely work well on deployment `firebase deploy`.
 - Remember to delete previous Firebase initializations on your desktop. (This was the main issue I encountered)
 - No funny directories or sub-directories should be created.
+-`app.listen` is notorious in bringing the address already in use error on `firebase serve`. Get rid of it!
 
 ## GRANTING PUBLIC ACCESS
 
